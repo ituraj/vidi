@@ -1,7 +1,6 @@
 import React from "react";
 import "./App.scss";
-import MainPlayer from "./components/MainPlayer";
-import Playlist from "./components/Playlist";
+import Player from "./components/Player";
 
 class App extends React.Component {
   constructor(props) {
@@ -11,9 +10,8 @@ class App extends React.Component {
   render() {
     return (
       <>
-        <main>
-          <MainPlayer />
-          <Playlist />
+        <main className='main'>
+          <Player />
         </main>
       </>
     );

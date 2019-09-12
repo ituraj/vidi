@@ -13,19 +13,19 @@ class Playlist extends React.Component {
           <div className='playlist__container'>
             <iframe
               title='video 1'
-              width='420'
-              height='315'
-              src='https://www.youtube.com/embed/tgbNymZ7vqY'></iframe>
+              width='426'
+              height='240'
+              src='https://www.youtube.com/embed/6TLZqx2jW-k'></iframe>
             <iframe
               title='video 2'
-              width='420'
-              height='315'
-              src='https://www.youtube.com/embed/tgbNymZ7vqY'></iframe>
+              width='426'
+              height='240'
+              src='https://www.youtube.com/embed/6TLZqx2jW-k'></iframe>
             <iframe
               title='video 3'
-              width='420'
-              height='315'
-              src='https://www.youtube.com/embed/tgbNymZ7vqY'></iframe>
+              width='426'
+              height='240'
+              src='https://www.youtube.com/embed/6TLZqx2jW-k'></iframe>
           </div>
         </section>
       </>
