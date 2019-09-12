@@ -1,5 +1,7 @@
-import React from 'react';
-import './App.scss';
+import React from "react";
+import "./App.scss";
+import MainPlayer from "./components/MainPlayer";
+import Playlist from "./components/Playlist";
 
 class App extends React.Component {
   constructor(props) {
@@ -8,9 +10,12 @@ class App extends React.Component {
   }
   render() {
     return (
-      <div className="App">
-        Hello
-    </div>
+      <>
+        <main>
+          <MainPlayer />
+          <Playlist />
+        </main>
+      </>
     );
   }
 }
